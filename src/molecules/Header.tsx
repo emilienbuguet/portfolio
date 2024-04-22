@@ -15,7 +15,7 @@ export function Header() {
         <header className="py-4 flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center hover:text-primary cursor-pointer pb-4 w-full md:w-auto md:pb-0 border-b border-gray-300 md:border-none justify-center md:justify-start" onClick={onClick}>
                 <div className="rounded-full overflow-hidden bg-white w-14 h-14 flex-shrink-0">
-                    <img src="/assets/bachelor_photo.jpg" alt="Profile" className="w-full h-full object-cover" />
+                    <img src="/portfolio/assets/bachelor_photo.jpg" alt="Profile" className="w-full h-full object-cover" />
                 </div>
                 <h1 className="text-2xl ml-3 font-abhaya font-extrabold">Emilien Buguet</h1>
             </div>

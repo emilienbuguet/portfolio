@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
 import PageTitle from '../atoms/Title';
-import image from '/assets/bachelor_photo.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -29,7 +28,7 @@ export function About() {
                     </div>
                 </div>
                 <div className="flex flex-1 pt-8 md:pt-0">
-                    <img src={image} alt={"me"} className='object-cover'/>
+                    <img src={"/portfolio/assets/bachelor_photo.jpg"} alt={"me"} className='object-cover'/>
                 </div>
             </div>
             <PageTitle text={t('pages_about_contact_me')}/>

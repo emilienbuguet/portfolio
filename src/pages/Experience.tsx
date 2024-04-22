@@ -6,7 +6,6 @@ import TechnologyList from '../molecules/TechnologyList';
 import { useMemo } from 'react';
 import ExperienceCard from '../molecules/ExperienceCard';
 import SeeAllExperienceCard from '../molecules/SeeAllExperienceCard';
-// import image from '/public/assets/bachelor_photo.jpg'
 
 interface ExperienceData {
     technologies: string[];

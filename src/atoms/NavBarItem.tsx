@@ -6,7 +6,7 @@ export function NavBarItem({path, label}: NavBarItemProps) {
     const navigate = useNavigate();
     const match = useMatch(path);
     const onClick = useCallback(() => {
-        navigate(path)
+        navigate(`/${path}`)
     }, [navigate, path]);
 
     return (

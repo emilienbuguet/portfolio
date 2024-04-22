@@ -10,17 +10,15 @@ import Experience from './pages/Experience';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/portfolio'>
       <Routes>
       <Route element={<MainLayout />}>
         <Route index element={<Home />} />
-        <Route path='/portfolio' element={<Home />} />
         <Route path='/experiences' element={<Experiences />} />
         <Route path='/experiences/:experience' element={<Experience />} />
         <Route path='/technologies' element={<Technologies />} />
         <Route path='/about' element={<About />} />
       </Route>
-    
       </Routes>
     </Router>
   )
