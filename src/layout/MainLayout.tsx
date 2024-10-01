@@ -4,8 +4,8 @@ import Footer from '../molecules/Footer';
 
 export function MainLayout() {
     return (
-        <div className='pt-16 flex flex-col min-h-screen'>
-            <div className='px-12 md:px-48 flex-grow'>
+        <div className='pt-16 flex flex-col min-h-screen bg-background'>
+            <div className='px-8 md:px-48 flex-grow'>
                 <Header />
                 <Outlet />
             </div>

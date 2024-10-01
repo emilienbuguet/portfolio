@@ -1,8 +1,6 @@
 import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export function ExperienceCard({name}: ExperienceCardProps) {
     const navigate = useNavigate();
@@ -12,7 +10,7 @@ export function ExperienceCard({name}: ExperienceCardProps) {
     }, [navigate, name]);
 
     return (
-        <div className='border-2 hover:border-primary rounded-xl w-full h-48 md:h-96 flex flex-col cursor-pointer relative' onClick={onClick}>
+        <div className='border-2 bg-white hover:border-primary hover:scale-105 transition-transform duration-500 rounded-xl w-full h-48 md:h-96 flex flex-col cursor-pointer relative' onClick={onClick}>
             <div className='h-1/3 border-b-2 rounded-t-lg'>
                 <img className='w-full h-full object-cover rounded-t-lg'  src={`/portfolio/experiences/${name}_banner.png`}/>
             </div>

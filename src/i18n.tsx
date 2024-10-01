@@ -13,6 +13,6 @@ const resources = {
     }
 }
 
-i18next.use(initReactI18next).init({resources, lng:"en"});
+i18next.use(initReactI18next).init({resources, lng:"fr"});
 
 export default i18next;

@@ -11,7 +11,7 @@ export function Footer() {
     }, [navigate]);
 
     return (
-        <footer className="bg-white py-4 border-t border-gray-300">
+        <footer className="py-4 border-t border-gray-300">
             <div className="flex justify-between items-center px-12 md:px-48">
                 <div className='flex items-center'>
                     <span className="text-sm md:text-md mr-2 md:mr-4 underline hover:no-underline cursor-pointer font-abhaya font-semibold" onClick={onClick}>Emilien Buguet</span>

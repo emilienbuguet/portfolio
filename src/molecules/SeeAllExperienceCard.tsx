@@ -12,7 +12,7 @@ export function SeeAllExperienceCard() {
     }, [navigate]);
 
     return (
-        <div className='border-2 hover:border-primary rounded-xl w-full h-48 md:h-96 p-4 md:p-8 flex flex-col justify-center items-center cursor-pointer' onClick={onClick}>
+        <div className='border-2 hover:border-primary hover:scale-105 transition-transform duration-500 rounded-xl w-full h-48 md:h-96 p-4 md:p-8 flex flex-col justify-center items-center cursor-pointer' onClick={onClick}>
             <div className='text-center'>
                 <div className='text-xl md:text-4xl font-abhaya font-extrabold'>
                     {t(`molecules_see_all_experiences_card`)}
